@@ -1,0 +1,16 @@
+# Virtual environment
+venv/
+.venv/
+
+# Django specific
+*.log
+*.pot
+*.pyc
+__pycache__/
+db.sqlite3
+media/
+static/
+.env
+.DS_Store # macOS specific
+*.sqlite3
+my_to_do_list/settings_local.py # If you use local settings
